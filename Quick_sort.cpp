@@ -17,7 +17,7 @@ void quick_sort(int q[],int l,int r){
 }
 
 int main(){
-    int a[5] = {3,4,2,6,7};
+    int a[] = {3,4,2,6,7};
     int n = sizeof(a)/sizeof(int);
 
     quick_sort(a,0,n - 1);
